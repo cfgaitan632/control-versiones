@@ -14,8 +14,12 @@ def dividir(a, b):
         return "Error: división por cero"
     return a / b
 
+def potencia(a, b):
+    return a ** b
+
 if __name__ == "__main__":
     print("Suma:", sumar(10, 5))
     print("Resta:", restar(10, 5))
     print("Multiplicación:", multiplicar(10, 5))
     print("División:", dividir(10, 5))
+    print("Potencia",potencia(2,7))
